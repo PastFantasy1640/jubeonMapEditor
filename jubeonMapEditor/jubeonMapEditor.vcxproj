@@ -126,10 +126,17 @@
     <ClCompile Include="src\Graphics\Layer\LayerBase.cpp" />
     <ClCompile Include="src\Graphics\Layer\LayerManager.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\strbuf\StreamBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Graphics\Layer\LayerBase.hpp" />
     <ClInclude Include="src\Graphics\Layer\LayerManager.hpp" />
+    <ClInclude Include="src\strbuf\InputStream.hpp" />
+    <ClInclude Include="src\strbuf\IOStream.hpp" />
+    <ClInclude Include="src\strbuf\OutputStream.hpp" />
+    <ClInclude Include="src\strbuf\strbuf.hpp" />
+    <ClInclude Include="src\strbuf\StreamBuffer.hpp" />
+    <ClInclude Include="src\strbuf\StreamConnector.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
