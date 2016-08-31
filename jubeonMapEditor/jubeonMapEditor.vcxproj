@@ -126,7 +126,6 @@
     <ClCompile Include="src\Graphics\Layer\LayerBase.cpp" />
     <ClCompile Include="src\Graphics\Layer\LayerManager.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\strbuf\StreamBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Graphics\Layer\LayerBase.hpp" />

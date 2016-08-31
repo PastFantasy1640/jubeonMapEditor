@@ -25,6 +25,9 @@
     <Filter Include="strbuf">
       <UniqueIdentifier>{280350a9-22ee-4613-a8bc-94a4571c6081}</UniqueIdentifier>
     </Filter>
+    <Filter Include="strbuf\StreamBuffer">
+      <UniqueIdentifier>{24e05071-6324-4d3e-ae1d-d95010234545}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -36,9 +39,6 @@
     <ClCompile Include="src\Graphics\Layer\LayerManager.cpp">
       <Filter>jubeon\Graphics\Layer</Filter>
     </ClCompile>
-    <ClCompile Include="src\strbuf\StreamBuffer.cpp">
-      <Filter>strbuf</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Graphics\Layer\LayerBase.hpp">
@@ -47,23 +47,23 @@
     <ClInclude Include="src\Graphics\Layer\LayerManager.hpp">
       <Filter>jubeon\Graphics\Layer</Filter>
     </ClInclude>
-    <ClInclude Include="src\strbuf\InputStream.hpp">
-      <Filter>strbuf</Filter>
-    </ClInclude>
-    <ClInclude Include="src\strbuf\IOStream.hpp">
-      <Filter>strbuf</Filter>
-    </ClInclude>
-    <ClInclude Include="src\strbuf\OutputStream.hpp">
-      <Filter>strbuf</Filter>
-    </ClInclude>
     <ClInclude Include="src\strbuf\strbuf.hpp">
       <Filter>strbuf</Filter>
     </ClInclude>
-    <ClInclude Include="src\strbuf\StreamBuffer.hpp">
-      <Filter>strbuf</Filter>
-    </ClInclude>
     <ClInclude Include="src\strbuf\StreamConnector.hpp">
-      <Filter>strbuf</Filter>
+      <Filter>strbuf\StreamBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\strbuf\StreamBuffer.hpp">
+      <Filter>strbuf\StreamBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\strbuf\OutputStream.hpp">
+      <Filter>strbuf\StreamBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\strbuf\InputStream.hpp">
+      <Filter>strbuf\StreamBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\strbuf\IOStream.hpp">
+      <Filter>strbuf\StreamBuffer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
