@@ -28,6 +28,12 @@
     <Filter Include="strbuf\StreamBuffer">
       <UniqueIdentifier>{24e05071-6324-4d3e-ae1d-d95010234545}</UniqueIdentifier>
     </Filter>
+    <Filter Include="jubeon\Systems">
+      <UniqueIdentifier>{2e05f7a0-f0c4-4a2d-bd17-9245ad99c1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jubeon\Systems\Logger">
+      <UniqueIdentifier>{2e285aa1-4c0b-4e9d-8655-cdffcd99b825}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -38,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="src\Graphics\Layer\LayerManager.cpp">
       <Filter>jubeon\Graphics\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Systems\Logger.cpp">
+      <Filter>jubeon\Systems\Logger</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +73,9 @@
     </ClInclude>
     <ClInclude Include="src\strbuf\IOStream.hpp">
       <Filter>strbuf\StreamBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\Logger.hpp">
+      <Filter>jubeon\Systems\Logger</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

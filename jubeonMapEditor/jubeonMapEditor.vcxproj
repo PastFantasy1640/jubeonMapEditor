@@ -84,7 +84,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>lib\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;lib\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -126,6 +126,7 @@
     <ClCompile Include="src\Graphics\Layer\LayerBase.cpp" />
     <ClCompile Include="src\Graphics\Layer\LayerManager.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Systems\Logger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Graphics\Layer\LayerBase.hpp" />
@@ -136,6 +137,7 @@
     <ClInclude Include="src\strbuf\strbuf.hpp" />
     <ClInclude Include="src\strbuf\StreamBuffer.hpp" />
     <ClInclude Include="src\strbuf\StreamConnector.hpp" />
+    <ClInclude Include="src\Systems\Logger.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
