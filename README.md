@@ -1,0 +1,2 @@
+# jubeonMapEditor
+jubeonで使用するための譜面エディタです。ぼちぼち作っていきます
